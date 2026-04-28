@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+        .Main{
+            color: red;
+            background-color: pink;
+        }
+        #main1{
+            color: green;
+        }
+        div{
+
+            color: rgb(234, 96, 188);
+            background-color: red;
+        }
+        div > p{
+            color: rgb(96, 96, 234);
+            background-color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Css Selector</h1>
+    <ol>
+        <li>Class Selector</li>
+        <li>Id Selector</li>
+        <li>Child Selector</li>
+        <li>Descendant Selector</li>
+        <li>Universal Selector</li>
+        <li>Pseudo selector</li>
+    </ol>
+    <div class="Main">
+          Hey I am a class Selector so you has to use the . for to show in css  in the style tag or external css file 
+    </div>
+    <div id="main1">
+       <h1> Hey I am an Id Selector so you has to use the # for to show in css </h1>
+    </div>
+    <div>
+        Hello Coding is very intresting and i am loving it. We are now learning the css selector and its very intresting to learn about it.
+      <P>if we want to give the specific seprate color in that div so we can use the child property in css and we can use the div p to give the specific color to that p tag its ex taken p we can use another also
+        we are using the > this symbol for the property </P>
+      </div>
+      
+      <div>Universal Selector like ki margin or padding </div>
+      <div>
+        <p>Hey I am a pseudo selector and we are using the : for to show in css and we can use the hover property in that 
+            a : active also  there anchor tag .
+        </p>
+      </div>
+</body>
+</html>

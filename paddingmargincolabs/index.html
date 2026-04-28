@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding And Margin Colabs </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        .box{
+            background-color: aqua;
+
+
+        }
+        .box1{
+           color: yellow;
+           padding: 10px;
+           margin: 35px;
+           border:2px,solid blue ;
+           height: 200px;
+           box-sizing: border-box;
+        }
+        .box2{
+            color: red;
+            padding: 10px;
+            margin: 25px;
+            border:2px,solid black ;
+           height: 200px;
+           box-sizing: border-box;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">
+        Hey I am a box 
+    </div>
+    <div class="box box2">Iam another Box</div>
+    <div>Kisi bhi  element ko yek ae jadya class dena ho to space dekar kar sakte </div>
+    <div>
+        Content then padding then border then margin 
+    </div>
+    <div>
+        Total width = width+left padding+ right padding +left border+right border+left margin +right margin
+        </div>
+        <div>
+            total height= height+top padding + bottom padding + top border +bottom boder+ top margin +bottom margin 
+        </div>
+        <div>
+            Box sizing =border box yae property :
+            means css property hae if we has given the height of the 200px 
+            then we are saying that padding or border sab milake iska height 200px karado 
+            margin nahi ata isme .
+        </div>
+        <div>
+            <h1>Margin Colabas</h1>
+            box 2 eg.
+        </div>
+        <div class="margin colabs"> 
+            agr 2 elements ki margin overlap ho rahi hae to jo bhi maximum margin hae wo hi lagegi 
+            above is ex. box 1 or box 2 
+            see we have given the margin to box 1 ko 35 and box 2  ko 25 then its overlaop and then 35 will be the margin between because its max value 
+        </div>
+
+
+        
+</body>
+</html>
