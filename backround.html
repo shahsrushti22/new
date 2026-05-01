@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backround Img Property</title>
+    <style>
+        .repeat{
+            width:800px;
+            height: 200px;
+            border: 2px solid black;
+            background-image: url(Images/image4.jpg);
+            background-repeat: repeat;
+        }
+        .norepeat{
+            width:800px;
+            height: 200px;
+            border: 2px solid black;
+            background-image: url(Images/image4.jpg);
+            background-repeat: no-repeat;
+        }
+        .repeat-x{
+            width:1000px;
+            height: 400px;
+            border: 2px solid black;    
+            background-image: url(Images/image4.jpg);
+            background-repeat: repeat-x;
+        }
+        .repeat-y{
+            width: 1000px;
+            height:400px;
+            border: 2px solid black;
+            background-image: url(Images/image4.jpg);
+            background-repeat: repeat-y;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>propertyes of the backround-repeat</h1>
+        <ol>
+            <li>repeat</li>
+            <li>no repeat</li>
+            <li>repeat-x</li>
+            <li>repeat-y</li>
+            
+        </ol>
+    </div>
+    <h2>repeat</h2>
+    <div class="repeat">
+            <b> repeat the image both horizontally and vertically to fill the entire element.</b>
+    </div>
+    <h2>no repeat</h2>
+    <div class="norepeat">
+       <b> no repeat the image will only be displayed once, and it will not be repeated in any direction.</b>
+    </div>
+    <h2>repeat-x</h2>
+    <div class="repeat-x">
+        repeat the image only horizontally, meaning it will be repeated across the width of the element but not vertically.
+    </div>
+    <h2>repeat-y</h2>
+    <div class="repeat-y">
+        repeat the image only vertically, meaning it will be repeated down the height of the element but not horizontally.
+    </div>
+</body>
+</html>
+        
