@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .attachment{
+            width: 1300px;
+            height: 500px;
+            border: 2px solid black;
+            background-image: url(Images/image2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: aliceblue;
+            background-attachment:fixed;
+        }
+        .main{
+             width: 1300px;
+            height: 500px;
+            border: 2px solid black;
+            background-color: blueviolet;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="attachment">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias deleniti sapiente magni, tempora facilis totam modi asperiores obcaecati itaque quisquam, rerum aperiam, saepe aliquid a et! Libero architecto omnis neque voluptas atque illum molestias sit ullam unde vitae quaerat voluptatibus, accusantium odit sunt laudantium deserunt harum natus. Quam deserunt maxime unde totam architecto dicta tempore beatae accusamus rem quod laboriosam asperiores, est hic iste dolores saepe incidunt magnam natus sit. Beatae dolore reiciendis velit quia voluptatem nesciunt deserunt illum atque quibusdam dolores delectus aliquid ex suscipit aspernatur laborum, perferendis saepe eum molestias magni enim, odit earum? Fuga quisquam enim, quibusdam consectetur, repudiandae doloribus ratione unde autem dolorem rerum provident nostrum debitis necessitatibus voluptatibus? Sint hic, cum soluta molestiae placeat aut.</p>
+    </div>
+    <div class="main">
+         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dicta debitis dolor totam omnis. Distinctio rerum omnis aspernatur? Doloribus provident est odio obcaecati dolorem rerum vitae, excepturi voluptates facere in!</p>
+    </div>
+    <div>
+        <h1>background-attachment</h1>
+        <p>The background-attachment property in CSS is used to specify whether a background image should scroll with the content of an element or remain fixed in place. It accepts three main values:</p>
+        <ol>
+            <li>scroll: This is the default value. The background image will scroll along with the content of the element. As you scroll down the page, the background image will move up and down with the rest of the content.</li>
+            <li>fixed: The background image will remain fixed in place, even when you scroll the page. This means that as you scroll, the content will move, but the background image will stay in its original position.</li>
+            <li>local: The background image will scroll along with the content of the element, but only within the bounds of that element. If you have a scrollable container with a background image set to local, the image will move as you scroll within that container, but it won't affect the rest of the page.</li>
+        </ol>
+    </div>
+</body>
+</html>
