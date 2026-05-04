@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specificity</title>
+    <style>
+    
+        .yellow{
+            color: yellow;
+        }
+    
+        .cpurple{
+            color: purple;
+        }
+
+         .cred{
+            color: red;
+        }
+            .two{
+                color: green;
+            }
+    
+            .first{
+                color: blue;
+            }
+            .main{
+                color: orange !important;
+            }
+            
+            .red{
+                color: red;
+            }
+            
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="yellow cred cpurple"> css specificity</h1>
+    </div>
+    <div>
+        in class selector the last declaration will override the previous declaration because it is more specific than the previous declaration. and in this case the color of the h1 element will be red because it is the last declaration and it is more specific than the previous declarations.<br>
+         In style attribute the last declaration will override the previous declaration because it is more specific than the previous declaration. and in this case the color of the h1 element will be red because it is the last declaration and it is more specific than the previous declarations. <br>    
+    </div>
+    <div>
+
+    1. if we are taking about the specificity of css then we have to understand that the more specific selector will override the less specific selector.
+    position and order of the declaration in the css file will also affect the specificity of the selector. if we have two selectors with the same specificity then the last declaration will override the previous declaration. and in this case the color of the h1 element will be red because it is the last declaration and it will override the previous declaration. <br>
+    <h2>Specificity Hierarchy</h2>
+    inline style > id selector > class selector > element selector
+    eg:
+    <h1 class="yellow cred cpurple" style="color: green;"> css specificity  </h1>
+    in this case the color of the h1 element will be green because it is the most specific selector and it will override the previous declarations. and the color of the h1 element will be green because it is the most specific selector and it will override the previous declarations. <br>
+    </div>
+
+    <div>
+        <h1>eg 2</h1>
+    if we give the inportance to some declaration then we can use the !important declaration to override the previous declaration. . <br>
+    <h1>importance eg</h1>
+    <div class="main red two first">
+        hello coding world <br>
+        
+    </div>
+    <div>
+        <h2>specificity calculation</h2>
+        in this case the specificity of the selector will be calculated as follows: <br>
+        <ol> 
+            <li>universal selector: 0 points</li>
+            <li>element selector psoudo selector: 1 points</li>
+            <li>class selector, atribute selector,psoudo class: 10 points</li>
+            <li>id selector: 100 points</li>
+             <li>inline style: 1000 points</li>
+        
+        </ol>
+    </div>
+       
+</body>
+</html>
