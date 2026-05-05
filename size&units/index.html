@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>size and units</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            box-sizing: border-box;
+            border:2px solid black;
+            width: 1000px;
+            height: 300px;
+            margin: 20px;
+            background: aqua;
+
+        }
+        .vwvh{
+            box-sizing: border-box;
+            border:2px solid black;
+            width: 80vw;
+            margin: auto;
+            height: 20vh;
+            background: pink;
+
+        }
+        .span{
+            box-sizing: border-box;
+            border:2px solid black;
+            width:  80vw;
+            height: 300 vh;
+             margin: auto;
+            background: yellow;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="main">
+        px is 196 offend inch and 96 offend cm 
+        </div>
+    <div class="vwvh">
+        vw means viewport width and vh means viewport height<br>
+        margin auto means center the element horizontally but only if the element is block element if inline element margin auto will not work
+    </div>
+    <span class="span">
+        span is inline element and div is block element
+        </span>
+        <div class="em">
+            1em is equal to the current font size of the element.
+            means if we have given the font size of th 18 px then 1 em=18px and if we have given the font size of the element 20px then 1em=20px
+        </div>
+        <div  class="rem">
+            1rem is equal to the font size of the root element (html element). means if we have given the font size of the root element 16px then 1rem=16px and if we have given the font size of the root element 20px then 1rem=20px<br>
+            html is root element of the document and body is child element of the html element
+        </div>
+</body>
+</html>
