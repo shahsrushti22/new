@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+     .box{
+        border: 2px solid blue;
+        display: inline-block;
+        padding: 45px;
+        margin: 20px;
+     }
+     .displaynone{
+        border: 2px solid black;
+        padding: 25px;
+        margin: 20px;
+        visibility: hidden;
+     }
+    
+     
+    </style>
+</head>
+<body>
+    <div class="box" >
+       i am a box
+    </div>
+    <div class="box">i am a box</div>
+    <span>i am a span</span>
+    <span>hello world</span>
+    <div class="inline">
+        <h1> display inline and inline block </h1>
+        display inline and inline block are similar but they have some differences. 
+        display inline does not respect the width and height properties, while display inline block does.
+        inline elements are not affected by the top and bottom margins, while inline block elements are.
+        <br>
+        inline block elements can have padding and margins, while inline elements cannot.
+     </div>
+     <div class="display">
+        <h1>display none </h1>
+        display none is used to hide an element from the page.
+        visible elements take up space on the page, while display none elements do not.
+     </div>
+     <div class="displaynone">
+        i am a display none element
+
+     </div>
+     <div>
+        display none elements do not take up space on the page, while visible elements do.
+        display none elements are not rendered on the page, while visible elements are.
+        
+     </div>
+</body>
+</html>
