@@ -1,0 +1,42 @@
+.project-setion{
+    width: 100%;
+    padding: 50px;
+    background:rgb(247, 242, 236);
+}
+.project-section-mid{
+    width: 1320px;
+    margin: auto;
+}
+.project-section-mid h2{
+   text-align: center;
+   padding: 30px 0px;
+}
+.project-items-outer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-items{
+    width: 18%;
+    margin: 1%;
+    text-align: center;
+    background: white;
+    padding: 30px 0px;
+
+
+}
+.project-items img{
+    width: 50px;
+}
+.flexexample{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flexitems{
+    background: purple;
+    color: white;
+    margin: 10px;
+    width: 500px;
+}
