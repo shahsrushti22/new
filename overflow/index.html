@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .box{
+           width: 30vw; 
+           height: 30vh;
+           border: 2px solid black;
+           overflow: scroll;
+        }
+        .overflow-auto{
+            width: 25vw; 
+           height: 30vh;
+           border: 2px solid black;
+           overflow: auto;
+           white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quis quae officia vel magnam facere quo nostrum voluptates, doloremque quidem at fugit sunt iure quia veniam minus possimus repudiandae non quisquam a accusamus. Libero, deleniti consequuntur! Rem quam eos, ratione voluptatem earum at libero. Aut.
+       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima esse placeat deserunt dolorum, dolores vel! Rerum neque, iusto, omnis, sapiente eveniet aspernatur aperiam quod mollitia ipsa suscipit ad veniam debitis.
+    </div>
+    <div class="overflow-auto">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis iusto nisi dolores eaque odit sit incidunt! Repellendus, mollitia similique hic nesciunt maxime doloribus cumque ab cum? Dolore cupiditate cum similique ad. Eum inventore quo aperiam, fugit dolore beatae at placeat.
+    </div>
+    <div>
+        overflow-auto: This property will add scrollbars only when the content overflows the container. If the content fits within the container, no scrollbars will be displayed.
+    </div>
+    <div>
+        overflow-scroll: This property will always display scrollbars, regardless of whether the content overflows the container or not. Even if the content fits perfectly within the container, scrollbars will still be visible.
+    </div>
+    <div>
+        <b>
+            white-space no wrap : horizontal scroll will be added if the content exceeds the width of the container. The text will not wrap to the next line, and instead, it will continue on a single line, causing a horizontal scrollbar to appear if necessary.
+        </b>
+    </div>
+    <div>
+        textoverflow : elipses will be added to the end of the text if it exceeds the width of the container. This is often used in conjunction with overflow: hidden to create a truncated text effect.
+    </div>
+</body>
+</html>
