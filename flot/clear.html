@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flot and clear</title>
+    <style>
+        .cards{
+            border: 2px solid black;
+            display: flow-root;
+        }
+        .card{
+            border: 2px solid red
+        }
+        img{
+            float: right;
+        }
+        .card:nth-child(2){
+          background-color: aqua;
+          clear:right
+        }
+    </style>
+</head>
+<body>
+  <div class="cards">
+    <img src="image3.jpg" alt="">
+    <div class="card">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus adipisci obcaecati, ratione enim neque, dolorum labore voluptates voluptatum omnis asperiores cumque vitae alias corrupti expedita minima. Deserunt ab similique quos.
+        <div class="card">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi recusandae maiores similique laborum nemo ea doloremque, reprehenderit tempore voluptas temporibus saepe vitae ducimus modi deserunt praesentium. Odit a, molestiae vitae reprehenderit temporibus nam molestias laudantium ipsa adipisci iste pariatur sint error dolor totam animi modi aperiam illo voluptatem nobis distinctio. Reprehenderit distinctio eaque consequatur fugiat sapiente vitae perspiciatis nihil, sequi ipsa. Perferendis, deleniti consectetur. Dicta quae libero, dignissimos modi commodi eveniet id nostrum vitae quasi reiciendis consequatur at cum alias rerum. Accusantium illo in, obcaecati totam ratione, nihil perferendis dignissimos praesentium odio, nemo cum sit voluptate neque explicabo dolores beatae!
+        </div>
+    </div>
+  </div>
+   <div>
+    clear is a property that specifies on which sides of an element floating elements are not allowed to float. It can take the following values:
+    <ul>
+        <li>left: No floating elements allowed on the left side.</li>
+        <li>right: No floating elements allowed on the right side.</li>
+        <li>both: No floating elements allowed on either the left or the right side.</li>
+        <li>none: Floating elements are allowed on both sides. This is the default value.</li>
+   </div>
+</body>
+</html>
