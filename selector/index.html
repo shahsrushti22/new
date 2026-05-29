@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more on css selector</title>
+    <style>
+     .box:first-child{
+        background-color: pink;
+     }
+     /*.box::first-line{
+        color: red;
+     }*/
+     .boxes *{
+        color: blue;
+        border:2px solid black
+     }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+      <div class="box">hey i am a box Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, laborum adipisci. Vero, cum qui. Impedit qui ea id non veniam consequatur, ratione quae reiciendis modi alias inventore in, ex animi aspernatur? Esse, cupiditate nam. </div>
+      <div class="box">hey i am a box </div>
+      <div class="box">hey i am a box </div>
+    </div>
+    <div>
+        this are selector in css
+        * and :first-child and ::first-line
+        * selector is used to select the element in css and apply the style on it
+        * :first-child selector is used to select the first child of the parent element and apply the style on it
+        * ::first-line selector is used to select the first line of the element and apply the style on it 
+    </div>
+</body>
+</html>
