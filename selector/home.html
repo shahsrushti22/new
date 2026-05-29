@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selector data color primary atribute </title>
+    <style>
+        [data-color="primary"]{
+        background-color: blue;
+        color: white;
+        margin-top: 45px;
+        padding: 10px;
+        
+       }
+       p,.main,[data-color="second"]{
+        background-color: pink;
+       }
+    
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">hey i am a first</div>
+        <div class="box">hey i am a first</div>
+        <div class="box">hey i am a first</div>
+
+    </div>
+    <div>
+        data-color is a property that can be used to store custom data on an HTML element. In this example, we have a div element with the attribute data-color set to "primary". The CSS selector [data-color="primary"] targets this specific element and applies the specified styles, such as background color, text color, margin, and padding. This allows us to style elements based on their custom data attributes, providing flexibility in our design and layout.
+        we can use for the class also or for any other element also 
+        p .class or a or any other .
+    </div>
+    <div data-color="second" class="main">
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis voluptas quasi suscipit illum repellat, id quo incidunt dolor, delectus unde ea vitae fugit aspernatur asperiores voluptate. Veritatis officia tenetur dolor reprehenderit corrupti expedita aperiam.
+        </p>
+    </div>
+</body>
+</html>
