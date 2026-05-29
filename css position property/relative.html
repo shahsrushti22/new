@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+        margin: 0px;
+        padding: 0px;
+      }
+      .box{
+        margin: 3px;
+        padding: 3px;
+        width: 80vw;
+        height: 144px;
+        border: 2px solid black;
+      }
+      .box1{
+        background-color: aqua;
+      }
+      .box2{
+        background-color: rgb(67, 187, 3);
+        position: relative;
+        top: 34px;
+        left: 56px;
+        z-index: 2;
+
+        
+      } 
+      .box3{
+        background-color: blueviolet;
+      }
+      .box4{
+        background-color: blue;
+      }
+      .parents{
+        padding: 43px;
+        margin: 34px;
+        border: 2px solid purple;
+
+      }
+    </style>
+</head>
+<body>
+    <div class="parents">
+       <div class=" box box1"></div>
+       <div class=" box box2"></div>
+       <div class=" box box3"></div>
+       <div class=" box box4"></div>
+    </div>
+    <div>
+      property: relative
+      relative position allows you to position an element relative to its normal position in the document flow. When you set an element's position to relative, you can use the top, right, bottom, and left properties to move it from its original position. The space for the element is still reserved in the layout, so it won't affect the positioning of other elements around it. This is useful for making small adjustments to the layout without affecting the overall flow of the document. In the example above, the second box (box2) is positioned relative to its normal position, which is why it appears shifted down and to the right from its original location. The other boxes remain in their normal flow positions.
+    </div>
+</body>
+</html>
