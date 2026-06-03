@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex Box</title>
+    <style>
+        .container{
+          border:2px solid red;
+          display: flex;
+           height: 80vh;
+           justify-content: center;
+           align-items: center;
+           flex-wrap: wrap;
+           align-content: center;
+        }
+        .items{
+            height: 32px;
+            width: 32px;
+            border: 2px solid black;
+            margin: 4px;
+            background-color: blueviolet;
+         
+        }
+        .order1{
+            order:1;
+        }
+        .order2{
+            order:2;
+        }
+        .container1{
+            border:2px solid red;
+          display: flex;
+           height: 80vh;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+        }
+        .items1{
+            height: 32px;
+            width: 32px;
+            border: 2px solid black;
+            margin: 4px;
+            background-color: blueviolet;
+            flex-grow: 2;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+    <div class="container">
+        <div class="items order1">1</div>
+        <div class="items order1">2</div>
+        <div class="items order1"></div>
+        <div class="items order1">65</div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div> 
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div> 
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div> 
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div> 
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+    </div>
+    </main>
+    <div class="container1">
+        <div class="items1">1</div>
+        <div class="items1">2</div>
+        <div class="items1">3</div>
+        <div class="items1">4</div>
+        <div class="items1">5</div>
+    </div>
+    <div>
+        Flex grow is the property that allows the items to grow and fill the available space in the container. In this example, all the items have a flex-grow value of 2, which means they will grow at the same rate and fill the container equally.
+        so the available space in the container will be divided equally among the items, and each item will grow to fill that space. This is useful for creating flexible layouts where you want the items to adjust their size based on the available space in the container.
+    </div>
+    
+</body>
+</html>

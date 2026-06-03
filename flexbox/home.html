@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex grow</title>
+    <style>
+      .container{
+        height: 80vh;
+        border: 2px solid black;
+        background-color: lightpink;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .item{
+        flex-grow: 1;
+        width: 32px;
+        height: 32px;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 3px;
+        background-color: lightblue;
+      }
+      .items1{
+        flex-grow: 2;
+      }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="item items1">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </div>
+    </main>
+    <div>
+        flex grow is the property that allows the item to grow and fill the available space in the container. The item with the higher flex grow value will take up more space than the item with the lower flex grow value. In this example, the first item has a flex grow value of 2, while the other two items have a flex grow value of 1. This means that the first item will take up twice as much space as the other two items.
+    </div>
+</body>
+</html>
