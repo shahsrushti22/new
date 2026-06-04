@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: 120px 100px;
+            grid-template-rows: 100px 100px 100px;
+        }
+        .item{
+            border: 2px solid red;
+            height: 55px;
+            width: 55px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        
+    </div>
+    <div>
+        grid is a  display property. It is used to create a grid layout. It is a two-dimensional layout system, which means it can handle both columns and rows. It is a powerful tool for creating complex layouts with ease. The grid layout is defined by the grid-template-columns and grid-template-rows properties. The grid-template-columns property defines the number of columns and their width, while the grid-template-rows property defines the number of rows and their height. The grid items are placed in the grid cells according to their order in the HTML. The grid items can also be placed in specific grid cells using the grid-column and grid-row properties. The grid layout is responsive, which means it can adapt to different screen sizes. It is a great alternative to the flexbox layout for creating complex layouts.
+    </div>
+    <div>
+        <b>grid area</b><br>
+        grid area is a property that defines a grid items size and location within the grid. It is a shorthand property for grid-row-start, grid-column-start, grid-row-end, and grid-column-end. The grid area property can be used to specify the starting and ending positions of a grid item in both rows and columns. For example, if you want to place an item in the first row and first column, you can use the following code: grid-area: 1 / 1 / 2 / 2; This means that the item will start at row 1, column 1, and end at row 2, column 2. The grid area property is a convenient way to position items in a grid layout without having to specify each individual property.
+    </div>
+    <div>
+        <h2>grid track</h2>
+        grid track is a term used to describe the rows and columns in a grid layout. A grid track can be either a row or a column, and it is defined by the grid-template-columns and grid-template-rows properties. Each grid track can have a specific size, which can be defined using various units such as pixels, percentages, or the fr unit. The fr unit is a flexible unit that represents a fraction of the available space in the grid container. For example, if you have two columns defined as 1fr and 2fr, the first column will take up one-third of the available space, while the second column will take up two-thirds of the available space. Grid tracks are an essential part of creating a grid layout, as they determine how the items are arranged within the grid.
+    </div>
+
+</body>
+</html>-
