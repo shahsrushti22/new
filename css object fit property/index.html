@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css object fit property</title>
+    <style>
+        .container{
+            height: 466px;
+            width: 488px;
+            border: 2px solid black;
+            background-color: aqua;
+        }
+        img{
+            height:466px;
+            width: 488px;
+            object-fit:cover;
+
+        }
+        .object-contain{
+            height: 466px;
+            width: 488px;
+            border: 2px solid black;
+            background-color: aqua;
+            
+        }
+        .object-contain img{
+            height:466px;
+            width: 488px;
+            object-fit: contain;
+        }
+        .fill{
+            height: 466px;
+            width: 488px;
+            border: 2px solid black;
+            background-color: aqua;
+        }
+        .fill img{
+            height:466px;
+            width: 488px;
+            object-fit: fill;
+        }
+        .scale-down{
+            height: 466px;
+            width: 488px;
+            border: 2px solid black;
+            background-color: aqua;
+        }
+        .scale-down img{
+            height:466px;
+            width: 488px;
+            object-fit:scale-down;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+  <img src="https://media.istockphoto.com/id/610259354/photo/young-woman-using-dslr-camera.jpg?s=612x612&w=0&k=20&c=gjAR4JiqA8lkGQzssSrXxo3yl-cwr5j7Hy47cy-10c4=" alt="">
+    </div>
+    <div>
+        object-fit: cover; will make the image cover the entire container while maintaining its aspect ratio. If the image's aspect ratio does not match the container's aspect ratio, it will be cropped to fit.
+    </div>
+    <div class="object-contain">
+        <img src="https://media.istockphoto.com/id/610259354/photo/young-woman-using-dslr-camera.jpg?s=612x612&w=0&k=20&c=gjAR4JiqA8lkGQzssSrXxo3yl-cwr5j7Hy47cy-10c4=" alt="">
+    </div>
+    <div>
+        <b>
+            object-fit: contain; will make the image fit within the container while maintaining its aspect ratio. If the image's aspect ratio does not match the container's aspect ratio, it will be letterboxed (i.e., there will be empty space on either side of the image).
+        </b>
+    </div>
+    <div>
+        object-fit is a CSS property that allows you to control how an image or video is resized to fit within its container. It is particularly useful when the aspect ratio of the media does not match the aspect ratio of the container, and you want to control how the media is displayed. 
+        <b>
+            by deafult object-fit is set to fill which will stretch the image to fit the container without maintaining its aspect ratio. You can use other values like cover, contain, none, and scale-down to control how the image is displayed within its container.
+        </b>   
+    </div>
+    <div class="fill">
+        <b>Object-fit : fill;</b>
+        <img src="https://media.istockphoto.com/id/610259354/photo/young-woman-using-dslr-camera.jpg?s=612x612&w=0&k=20&c=gjAR4JiqA8lkGQzssSrXxo3yl-cwr5j7Hy47cy-10c4=" alt="">
+        
+    </div>
+    </div>
+    <div class="scale-down">
+        <img src="https://media.istockphoto.com/id/610259354/photo/young-woman-using-dslr-camera.jpg?s=612x612&w=0&k=20&c=gjAR4JiqA8lkGQzssSrXxo3yl-cwr5j7Hy47cy-10c4=" alt="">
+    </div>
+    <div>
+     object fit :scale-down; will scale the image down to fit within the container while maintaining its aspect ratio. If the image's aspect ratio does not match the container's aspect ratio, it will be letterboxed (i.e., there will be empty space on either side of the image). If the image is smaller than the container, it will not be scaled up.
+    </div>
+</body>
+</html>
