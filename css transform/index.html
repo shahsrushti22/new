@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform</title>
+    <style>
+        .box{
+            height:50px;
+            width:50px;
+            background-color:blue;
+            border: 2px solid black;
+            transform: rotate(40deg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width:100vw;
+            height:80vh;
+            border: 2px solid rgb(135, 7, 84);
+        }
+        .container1{
+            width:100vw;
+            height:80vh;
+            border: 2px solid rgb(135, 7, 84);
+        }
+        .box1{
+            height:50px;
+            width:50px;
+            background-color:blue;
+            border: 2px solid black;
+            transform:scalex(1.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+          box 
+        </div>
+        <div>
+            transform is a powerful CSS property that allows you to manipulate the appearance of an element in various ways. With transform, you can rotate, scale, skew, or translate an element on the 2D or 3D plane. This property is often used to create dynamic and interactive web designs, as it can be combined with transitions and animations for smooth effects. For example, you can use transform to rotate an element by a certain angle, scale it up or down, or move it to a different position on the page. Overall, CSS transform is a versatile tool that can enhance the visual appeal and functionality of your web projects. 
+        </div>
+        <div class="container1">
+            <div class="box1">
+
+            </div>
+        </div>
+        <div>
+            <b>
+                transform: rotate means to rotate the element by a specified angle, while transform: scale means to resize the element by a specified factor.<br>
+                <ul>rotate</ul>
+                <ul>rotate x</ul>
+                <ul>rotate y</ul>
+                <ul>rotate z</ul>
+                <ul>scale</ul>*
+                <ul>scale x</ul>
+                <ul>scale y</ul>
+
+                eg.
+                transform: rotate(40deg) rotates the element 40 degrees clockwise, while transform: scaleX(1.6) scales the element horizontally by a factor of 1.6, making it 60% wider than its original size.
+            </b>
+        </div>
+
+    </div>
+</body>
+</html>
