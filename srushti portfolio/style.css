@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(28, 18, 38);
+    color: white;}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+     align-items:center ;
+    background-color: rgb(70, 28, 153);
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+     cursor: pointer;
+   
+    
+}
+.logo:hover{
+    color: red;
+}
+ ul {
+    display:flex;
+    gap: 35px;px;
+    list-style:none
+}
+ul li:hover{
+    color: red;
+}
+ul li{
+    cursor: pointer;
+}
+.social{
+    display: flex;
+    gap:30px;
+    font-size: 22px;
+     cursor: pointer;
+}
+.social:hover{
+    color: red;
+}   
+.hero{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding:80px;
+
+}
+.left{
+    width: 100%;
+    
+}
+.left span{
+    color: #a37be6;
+    
+}
+.left h1{
+    font-size: 60px;
+    margin:20px 0;
+     
+}
+.left p{
+    font-size: 20px;
+    color:rgb(62, 99, 202)
+    
+    
+}
+button{
+    margin-top: 30px;
+    margin-left: 80px;
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #a37be6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;    
+}
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.right img{
+    width: 350px;
+    height: auto;
+    margin-top: 50px;
+}
+
+   
