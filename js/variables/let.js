@@ -8,3 +8,4 @@ eg. is above */
 n=20;
 console.log(n)
 /*we have changed the value n=20; in above eg now we wlll get the output of the n is 20*/
+
