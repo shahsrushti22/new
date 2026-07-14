@@ -57,3 +57,16 @@ console.log(bigint,typeof bigint)
 let bigint2=BigInt(888888888888888888888888888888888888888888888888888n);
 console.log(bigint2,typeof bigint2)
 //so in above example we can see that the bigint is used to represent integers that are too large to be represented by the Number data type. and it is created by appending the letter "n" to the end of an integer literal or by using the BigInt() constructor.//
+//primitives are immutable//
+//primitives data types :
+1. number
+2. string
+3. boolean
+4. null
+5. undefined
+6. symbol
+7. bigint
+//non-primitive data types//
+1. object
+2. array
+//non-primitive data types are mutable//

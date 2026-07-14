@@ -9,6 +9,6 @@ console.log(users,typeof users)
 //object is a non-primitive data type that is used to store collections of key-value pairs. It is an unordered collection of properties, where each property consists of a key (also called a property name) and a value. Objects are mutable, meaning that their properties can be changed after they are created.//
 let obj={
     cname:"ws",
-    coursename:"javascript",
+    coursename:"javascript"
 }
 console.log(obj,typeof obj)
